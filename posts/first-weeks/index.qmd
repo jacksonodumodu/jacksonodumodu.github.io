@@ -1,6 +1,6 @@
 ---
 title: "My first weeks in MDS"
-author: "Your Name"
+author: "Jackson Odumodu"
 date: 2026-09-09
 ---
 
