@@ -85,9 +85,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -209,19 +209,28 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1788986597296" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1788937200000" data-listing-file-modified-sort="1788993186953" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="90">
 <div class="thumbnail"><a href="./posts/first-weeks/index.html" class="no-external">
 
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+<p class="card-img-top"><img loading='lazy' src="posts\first-weeks\Vancouver.jpeg"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/first-weeks/index.html" class="no-external">My first weeks in MDS</a>
+</h3>
 <div class="delink listing-description"><a href="./posts/first-weeks/index.html" class="no-external">
-
+The start of the MDS program has been fast-moving and exciting. The content during the first week of classes was not exceptionally difficult, but the processes related to…
 </a></div>
 </div>
 <div class="metadata">
 <a href="./posts/first-weeks/index.html" class="no-external">
+<div class="listing-date">
+Sep 9, 2026
+</div>
+<div class="listing-author">
+Your Name
+</div>
 </a>
 </div>
 </div>
