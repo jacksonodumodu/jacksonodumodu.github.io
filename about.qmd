@@ -1,0 +1,14 @@
+---
+title: "About"
+---
+
+## Background
+I was born and raised in Woodstock, a town in southwestern Ontario. I majored in Linguistics and Psychology and minored in Mathematics at the Universty of Toronto.
+
+## Why data science?
+When the Computational Linguistics program was brought to my attention, I realized this was an intersection of my most prominent skills and interests. It is also such a releant area to study as the effect of LLMs on our society only continues to grow. 
+
+## More about me
+I compete in a few martial arts, play guitar (especially rock), and read a range of genres. 
+
+

@@ -1,0 +1,9 @@
+---
+title: "Jackson Odumodu"
+---
+
+![](images/My_face.jpeg){width=250px}
+
+
+I am from Woodstock, Ontario, and I studied Linguistics, Psychology, and Mathematics at the University of Toronto. I hope to gain technical skills from the Master of Data Science program, especially in working with machine learning. I am interested in machine translation, voice recognition, and also deep learning applications to finance.
+
