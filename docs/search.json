@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "posts/r-post/index.html",
+    "href": "posts/r-post/index.html",
+    "title": "Jackson Odumodu",
+    "section": "",
+    "text": "library(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.2.1     ✔ readr     2.2.0\n✔ forcats   1.0.1     ✔ stringr   1.6.0\n✔ ggplot2   4.0.3     ✔ tibble    3.3.1\n✔ lubridate 1.9.5     ✔ tidyr     1.3.2\n✔ purrr     1.2.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors"
+  },
+  {
     "objectID": "posts/first-weeks/index.html",
     "href": "posts/first-weeks/index.html",
     "title": "My first weeks in MDS",
@@ -47,5 +54,12 @@
     "title": "Jackson Odumodu",
     "section": "",
     "text": "I am from Woodstock, Ontario, and I studied Linguistics, Psychology, and Mathematics at the University of Toronto. I hope to gain technical skills from the Master of Data Science program, especially in working with machine learning. I am interested in machine translation, voice recognition, and also deep learning applications to finance."
+  },
+  {
+    "objectID": "posts/py-post/index.html",
+    "href": "posts/py-post/index.html",
+    "title": "Jackson Odumodu",
+    "section": "",
+    "text": "import sys\n\nprint (sys.executable)\n\nC:\\Users\\Spira\\mds\\521\\jacksonodumodu.github.io\\.venv\\Scripts\\python.exe"
   }
 ]
