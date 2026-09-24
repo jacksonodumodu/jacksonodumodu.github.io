@@ -1,5 +1,66 @@
 ---
-title: "R Analysis: "
+title: "R Analysis: Penguin Body Mass"
 author: "Jackson Odumodu"
 date: 2026-09-23
 ---
+
+## Data
+
+Data: [Palmer Penguins](https://allisonhorst.github.io/palmerpenguins/), Palmer Station Antarctica LTER. The data were collected by Dr. Kristen Gorman and the Palmer Station LTER program, and packaged for R by Horst, Hill and Gorman (2020). It is released under a CC0 licence.
+
+This post asks a simple question: do the three penguin species differ in body mass?
+
+```{r}
+#| message: false
+#| warning: false
+
+library(tidyverse)
+library(palmerpenguins)
+library(knitr)
+```
+
+## Cleaning the data
+
+Some penguins are missing a body mass measurement, so drop those rows.
+
+```{r}
+penguins_clean <- penguins |>
+  drop_na(body_mass_g)
+
+nrow(penguins_clean)
+```
+
+## Summary table
+
+```{r}
+#| label: tbl-summary
+#| tbl-cap: "Body mass by species."
+
+summary_table <- penguins_clean |>
+  group_by(species) |>
+  summarise(
+    n = n(),
+    mean_mass_g = round(mean(body_mass_g), 1),
+    sd_mass_g = round(sd(body_mass_g), 1)
+  )
+
+kable(summary_table)
+```
+
+@tbl-summary shows that Gentoo penguins have the highest mean body mass, at `r summary_table$mean_mass_g[summary_table$species == "Gentoo"]` g.
+
+## Figure
+
+```{r}
+#| label: fig-penguin-mass
+#| fig-cap: "Body mass of penguins by species."
+
+ggplot(penguins_clean, aes(x = species, y = body_mass_g)) +
+  geom_boxplot() +
+  labs(x = "Species", y = "Body mass (g)")
+```
+
+## What I found
+
+@fig-penguin-mass agrees with the table. Gentoo penguins are clearly heavier than the other two species, while Adelie and Chinstrap penguins have similar body masses.
+
