@@ -95,14 +95,14 @@
     "href": "posts/py-post/index.html",
     "title": "Python Analysis: Penguin Body Mass",
     "section": "",
-    "text": "Data: Palmer Penguins, Palmer Station Antarctica LTER. The data were collected by Dr. Kristen Gorman and the Palmer Station LTER program, and packaged for Python by Horst, Hill and Gorman (2020). It is released under a CC0 licence.\nThis post asks the question: do the three penguin species in palmerspenguins differ in body mass?\n\nimport pandas as pd\nimport matplotlib.pyplot as plt\nfrom palmerpenguins import load_penguins"
+    "text": "Data: Palmer Penguins, Palmer Station Antarctica LTER. The data were collected by Dr. Kristen Gorman and the Palmer Station LTER program, and packaged for Python by Horst, Hill and Gorman (2020). It is released under a CC0 licence.\nThis post asks the question: do the three penguin species in palmerspenguins differ in average body mass?\n\nimport pandas as pd\nimport matplotlib.pyplot as plt\nfrom palmerpenguins import load_penguins"
   },
   {
     "objectID": "posts/py-post/index.html#data",
     "href": "posts/py-post/index.html#data",
     "title": "Python Analysis: Penguin Body Mass",
     "section": "",
-    "text": "Data: Palmer Penguins, Palmer Station Antarctica LTER. The data were collected by Dr. Kristen Gorman and the Palmer Station LTER program, and packaged for Python by Horst, Hill and Gorman (2020). It is released under a CC0 licence.\nThis post asks the question: do the three penguin species in palmerspenguins differ in body mass?\n\nimport pandas as pd\nimport matplotlib.pyplot as plt\nfrom palmerpenguins import load_penguins"
+    "text": "Data: Palmer Penguins, Palmer Station Antarctica LTER. The data were collected by Dr. Kristen Gorman and the Palmer Station LTER program, and packaged for Python by Horst, Hill and Gorman (2020). It is released under a CC0 licence.\nThis post asks the question: do the three penguin species in palmerspenguins differ in average body mass?\n\nimport pandas as pd\nimport matplotlib.pyplot as plt\nfrom palmerpenguins import load_penguins"
   },
   {
     "objectID": "posts/py-post/index.html#cleaning-the-data",
